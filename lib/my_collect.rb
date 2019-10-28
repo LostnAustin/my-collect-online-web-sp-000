@@ -5,5 +5,5 @@ def my_collect(collection)
     name.upcase
     i += 1
   end
-  collection
+  new_collection
 end
