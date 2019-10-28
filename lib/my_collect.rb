@@ -3,6 +3,7 @@ def my_collect(collection)
   new_collection = []
   my_collect(collection) do |name|
     name.upcase
+    i += 1
   end
   collection
 end
